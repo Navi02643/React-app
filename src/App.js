@@ -151,8 +151,9 @@ function App() {
             </label>
             <input
               className="form-control"
-              type="text"
+              type="number"
               name="number1"
+              pattern="[0-9]{0,8}"
               onChange={(event) => {
                 setfirstNumber(event.target.value);
               }}
@@ -164,8 +165,9 @@ function App() {
             </label>
             <input
               className="form-control"
-              type="text"
+              type="number"
               name="number1"
+              pattern="[0-9]{0,8}"
               onChange={(event) => {
                 setsecondtNumber(event.target.value);
               }}
